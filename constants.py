@@ -1,0 +1,11 @@
+XPATH_TO_PANEL_FRIENDS = "//div[@style='border-radius: max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px;']/div"
+XPATH_TO_PANEL_FRIENDS_FIREFOX = "//div[@style='border-radius: max(0px, min(8px, -999900% - 39996px + 999900vw)) / 8px;']/div"
+PATH_IMG_NO_ACTIVE = " > div > div > div > img"
+PATH_IMG_ACTIVE = " > div > div > div > a > img"
+PATH_ADDRESS_IN_PROFILE = " > div > div > div > a"
+PATH_FULLNAME_NO_ACTIVE = "  > div > div > div > span"
+PATH_FULLNAME_ACTIVE = " > div > div > div > div > a > span"
+SELECTOR_FOR_LOGIN = "email"
+SELECTOR_FOR_PASSWD = "pass"
+SELECTOR_FOR_BUTTON = "button"
+COUNT_OF_FRIEND = 24

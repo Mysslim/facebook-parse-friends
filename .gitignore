@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+__pycache__
+.vscode
+pyvenv.cfg
+*.log
+drivers/
+drivers.json
+*.csv
+*json
