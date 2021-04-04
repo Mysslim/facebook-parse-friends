@@ -5,5 +5,4 @@ pyvenv.cfg
 *.log
 drivers/
 drivers.json
-*.csv
-*json
+
