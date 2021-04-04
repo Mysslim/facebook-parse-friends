@@ -1,5 +1,3 @@
-
-
 import sys
 import os
 import logging
@@ -18,6 +16,7 @@ class Main:
     def __init__(self):
         self.__config = self.__setup_config()
         self.__driver = self.__setup_driver()
+        self.setup_logger()
 
     def get_config(self):
         return self.__config
@@ -212,7 +211,7 @@ class Main:
         
         self.__driver.get("https://www.facebook.com/")
         self.login_in_facebook()
-        self.__driver.get("https://www.facebook.com/profile.php?id=100017172458807&sk=friends&ft_ref=flsa")
+        self.__driver.get(self.__config["url"]["URL_TO_FRIENDS"])
         self.scrollInBottom()
         friends = self.get_friends()
         
